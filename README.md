@@ -1,14 +1,20 @@
-# Adafruit RMF95W for the Pi Zero 2 W
+# Adafruit RMF95W/RFM96W for the Pi Zero 2 W
 
 ![PXL_20240112_222247882](https://github.com/BirbEXE/rmf95w/assets/60234159/dbab0cc5-a32c-4701-ab87-37a2f59195c5)
 
 I was trying to use the Pi Zero 2 W with the Adafruit RMF95W and I found the documentation frustratingly unusable for this particular board
 
-All the example code seemed to be fitted for the *96 version, which is fitted with an OLED / buttons.
+All the example code seemed to be fitted for the version which is fitted with an OLED / buttons, and a lot is targetted towards arduinos.
 
 Here's how to set it up, the easy way.
 
 ## Wiring Layout
+
+I was going to go into more detail but this'll do for now
+
+ignore the buttons and resistors, just focus on the connections between the Pi's GPIO pins and the RFM95W/96W
+
+![wiring](https://cdn-learn.adafruit.com/assets/assets/000/091/522/original/raspberry_pi_rfm9x_bb_2.png)
 
 ## MicroSD setup
 
@@ -80,7 +86,7 @@ git clone https://github.com/birbexe/rfm95w.git
 
 Once that's downloaded, you have to edit a few things.
 
-First, work out what version of the RFM95W board you have. Adafruit sell a [433MHz version](https://www.adafruit.com/product/3073) and a [868 or 915 MHz version](https://www.adafruit.com/product/3072)
+First, work out what version of the RFM95W/RFM96W board you have. Adafruit sell a [433MHz version](https://www.adafruit.com/product/3073) and a [868 or 915 MHz version](https://www.adafruit.com/product/3072)
 
 Once that's worked out, type
 
