@@ -1,6 +1,6 @@
 # Adafruit RMF95W for the Pi Zero 2 W
 
-![pi](https://user-images.githubusercontent.com/60234159/197788646-44bc8811-16f1-4eea-ba32-95d5e5d25334.jpg)
+![PXL_20240112_222247882](https://github.com/BirbEXE/rmf95w/assets/60234159/dbab0cc5-a32c-4701-ab87-37a2f59195c5)
 
 I was trying to use the Pi Zero 2 W with the Adafruit RMF95W and I found the documentation frustratingly unusable for this particular board
 
