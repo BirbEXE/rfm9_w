@@ -127,6 +127,8 @@ this will start the flask server, which can be accessed in a web browser, on you
 
 any text inputted and sent via the flask server will be transmitted through the LoRa board
 
+![image](https://github.com/BirbEXE/rfm9_w/assets/60234159/2a41a815-0bef-45c8-9e56-40456b722c90)
+
 ## Contributing
 
 If you feel like you have something to contribute, feel free to [drop a pull request](https://github.com/BirbEXE/rmf95w/pulls)!
