@@ -78,15 +78,16 @@ sudo pip3 install adafruit-circuitpython-rfm9x
 
 ## Sending / Recieving data
 
-To download the scripts, enter your venv (if not already inside it), and run the command:
+To download the scripts, enter your venv (if not already inside it), and run the commands:
 
 ```
-git clone https://github.com/birbexe/rfm95w.git
+git clone https://github.com/birbexe/rfm9_w.git
+cd rfm9_w
 ```
 
 Once that's downloaded, you have to edit a few things.
 
-First, work out what version of the RFM95W/RFM96W board you have. Adafruit sell a [433MHz version](https://www.adafruit.com/product/3073) and a [868 or 915 MHz version](https://www.adafruit.com/product/3072)
+First, work out what version of the RFM95W board you have. Adafruit sell a [433MHz version](https://www.adafruit.com/product/3073) and a [868 or 915 MHz version](https://www.adafruit.com/product/3072)
 
 Once that's worked out, type
 
@@ -115,6 +116,16 @@ After you're done editing, simply save the file by pressing `CTRL + X` followed 
 ## Running the code
 
 Once you have the board prepared, you have to decide whether you want to test it as a reciever, or a transmitter.
+
+if you're using it as a reciever, run `python reciever.py`
+
+This will display any recieved transmissions
+
+if you're using it as a transmitter, run `python transmitter.py`
+
+this will start the flask server, which can be accessed in a web browser, on your Pi's local IP
+
+any text inputted and sent via the flask server will be transmitted through the LoRa board
 
 ## Contributing
 
